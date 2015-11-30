@@ -4,7 +4,7 @@ var c = canvas;
 var cxt = c.getContext("2d");
 var centerX = window.innerWidth/2;
 var centerY = window.innerHeight/2;
-
+var spiralCount = 0;
 cxt.canvas.width  = window.innerWidth;
 cxt.canvas.height = window.innerHeight;
 
@@ -15,7 +15,7 @@ var increment = 2 * Math.PI / STEPS_PER_ROTATION;
 var theta = increment;
 var counter = 0;
 var radius = theta;
-var d = 1.021;
+var d = 1.0021;
 var k = 0.051;
 cxt.strokeStyle = 'blue';
 function DrawSpiral(mod) {
@@ -41,6 +41,7 @@ function DrawSpiral(mod) {
     prevY = newY;
     cxt.stroke();
 	// cxt.restore();
+
     
 }
 
@@ -49,6 +50,7 @@ var interval = speed/STEPS_PER_ROTATION;
 
 setInterval(function() {
     if (radius > window.innerWidth/1.2) {
+        spiralCount += 1;
         prevX = centerX;
         prevY = centerY;
         theta = increment + Math.PI/3;
@@ -57,8 +59,13 @@ setInterval(function() {
         var g = Math.floor(Math.random()*20+20);
         var b = Math.floor(Math.random()*100+100);
         cxt.strokeStyle="rgb("+r+","+g+","+b+")";
-
+        
+    }
+    if (spiralCount == 2) {
+        spiralCount = 0;
+        cxt.setLineDash([14, 2]);
+        cxt.clearRect(0, 0, c.width, c.height);
     }
     DrawSpiral(counter, prevX, prevY);
-    counter += 0.0104;
+    counter += 0.0084;
 }, interval);
