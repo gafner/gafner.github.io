@@ -61,7 +61,7 @@ setInterval(function() {
         cxt.strokeStyle="rgb("+r+","+g+","+b+")";
         
     }
-    if (spiralCount == 2) {
+    if (spiralCount == 4) {
         spiralCount = 0;
         cxt.setLineDash([14, 2]);
         cxt.clearRect(0, 0, c.width, c.height);
