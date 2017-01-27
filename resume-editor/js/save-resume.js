@@ -30,7 +30,6 @@ var SaveResume = function(editorId, firebase, builder, reset) {
     var userResumeJson = database.ref('resume/' + user_guid);
     userResumeJson.on('value', function(snapshot) {
 		if(snapshot.val() !== null) {
-			console.log('snapshot.val()', snapshot.val())
 			builder.setFormValues(snapshot.val());
 		}else {
 			reset()

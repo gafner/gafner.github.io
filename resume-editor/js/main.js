@@ -15,7 +15,6 @@ function getParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
-console.log(editorName)
 jQuery(document).ready(function($) {
 
 	var form = $("#form");
