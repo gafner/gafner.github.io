@@ -8,8 +8,7 @@ jQuery(document).ready(function($) {
 
 	$.getJSON("json/schema.json", function(data) {
 		builder.init(data);
-		saveResume = new SaveResume(firebase, builder)
-		reset();
+		saveResume = new SaveResume(firebase, builder, reset)
 	});
 
 	var preview = $("#preview");
@@ -65,9 +64,12 @@ jQuery(document).ready(function($) {
 
 	$("#save").on("click", function() {
 		var data = form.data("resume");
-		saveResume(data);
+		var promise = saveResume(data);
+		promise.then(function(json, error) {
+			swal("Resume was saved", "Thanks for your help", "success")
+		});
 	});
-	
+
 	$("#save").tooltip({
 		container: "body"
 	});

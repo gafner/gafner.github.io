@@ -47,7 +47,7 @@ input {
 	height: 170px;
 	padding: 16px 20px 0;
 	position: relative;
-	width: 280px;
+	width: 100%;
 }
 #sidebar .actions {
 	overflow: hidden;
@@ -135,7 +135,7 @@ input {
 #sidebar .tse-content {
 	float: right;
 	padding: 20px 20px 40px;
-	width: 280px;
+	width: 100%;
 }
 #themes-list .item {
 	display: block;

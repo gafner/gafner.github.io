@@ -1,5 +1,4 @@
-var SaveResume = function(firebase, builder) {
-
+var SaveResume = function(firebase, builder, reset) {
     var database = firebase.database();
 
     function guid() {
@@ -11,17 +10,16 @@ var SaveResume = function(firebase, builder) {
 
     function setGuid() {
         var user_guid = guid();
-        localStorage.setItem('user_guid', JSON.stringify(user_guid));
-        return guid
+        localStorage.setItem('user_guid', user_guid);
+        return user_guid
     }
 
-    function saveJson(json) {
+    function saveResume(json) {
         var user_guid = localStorage.getItem('user_guid');
         if (!user_guid) {
             user_guid = setGuid();
         }
-        var promise = userResumeJson.set(json);
-        return true;
+        return userResumeJson.set(json);
     }
 
     var user_guid = localStorage.getItem('user_guid');
@@ -31,11 +29,13 @@ var SaveResume = function(firebase, builder) {
 
     var userResumeJson = database.ref('resume/' + user_guid);
     userResumeJson.on('value', function(snapshot) {
-        console.log('snapshot', snapshot.val());
 		if(snapshot.val() !== null) {
+			console.log('snapshot.val()', snapshot.val())
 			builder.setFormValues(snapshot.val());
+		}else {
+			reset()
 		}
     });
 
-	return saveJson
+	return saveResume
 }
