@@ -60,6 +60,14 @@ input {
 	font: 12px FontAwesome;
 	margin-top: 5px;
 }
+#sidebar .actions #save {
+	margin-right: 4px;
+}
+#sidebar .actions #save:before {
+	content: "\f0c7";
+	font: 12px FontAwesome;
+	margin-top: 5px;
+}
 #sidebar .theme {
 	color: #999;
 	padding-top: 20px;

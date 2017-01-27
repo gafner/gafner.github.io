@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
-	<head>
+
+<head>
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,31 +13,44 @@
 	<link rel="stylesheet" href="json-builder/css/json-builder.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
+	<script src="https://www.gstatic.com/firebasejs/3.6.7/firebase.js"></script>
+	<script>
+		// Initialize Firebase
+		var config = {
+			apiKey: "AIzaSyCzXqzRgGxi-gN_k4zvWlhqGzDNhO9Wog8",
+			authDomain: "shapira-33e81.firebaseapp.com",
+			databaseURL: "https://shapira-33e81.firebaseio.com",
+			storageBucket: "shapira-33e81.appspot.com",
+			messagingSenderId: "850062196233"
+		};
+		firebase.initializeApp(config);
+	</script>
+</head>
 
-	</head>
-	<body class="preload">
+<body class="preload">
 
 	<aside id="sidebar">
 		<div id="panel">
 			<div class="inner">
-			<div class="actions">
-				<button id="export" class="button" data-placement="bottom" title="Download JSON"></button>
-				<button id="reset" class="button hidden">Reset</button>
-				<button id="clear" class="button">Clear</button>
+				<div class="actions">
+					<button id="export" class="button" data-placement="bottom" title="Download JSON"></button>
+					<button id="save" class="button" data-placement="bottom" title="Save JSON"></button>
+					<button id="reset" class="button">Reset</button>
+					<button id="clear" class="button">Clear</button>
+				</div>
+				<div class="theme">
+					Current theme:
+					<strong id="theme-current"></strong>
+				</div>
+				<div class="tabs">
+					<a href="#editor" data-toggle="tab" class="active">Editor</a>
+					<a href="#themes" data-toggle="tab">Themes</a>
+				</div>
+				<div class="view">
+					<a href="" class="active" data-type="html">HTML</a>
+					<a href="" data-type="json">JSON</a>
+				</div>
 			</div>
-			<div class="theme">
-				Current theme:
-				<strong id="theme-current"></strong>
-			</div>
-			<div class="tabs">
-				<a href="#editor" data-toggle="tab" class="active">Editor</a>
-				<a href="#themes" data-toggle="tab">Themes</a>
-			</div>
-			<div class="view">
-				<a href="" class="active" data-type="html">HTML</a>
-				<a href="" data-type="json">JSON</a>
-			</div>
-		</div>
 		</div>
 		<div id="editor" class="tab-pane active">
 			<div class="tse-scrollable">
@@ -113,9 +127,11 @@
 	</div>
 
 	<script src="js/libs.min.js"></script>
+	<script src="js/save-resume.js"></script>
 	<script src="json-builder/src/builder.js"></script>
 	<script src="json-builder/src/builder.templates.js"></script>
 	<script src="js/main.js"></script>
 
-	</body>
+</body>
+
 </html>

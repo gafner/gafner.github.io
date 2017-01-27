@@ -1,12 +1,14 @@
 // Global by intention.
 var builder;
-
+var saveResume;
 jQuery(document).ready(function($) {
+
 	var form = $("#form");
 	builder = new Builder(form);
 
 	$.getJSON("json/schema.json", function(data) {
 		builder.init(data);
+		saveResume = new SaveResume(firebase, builder)
 		reset();
 	});
 
@@ -56,7 +58,17 @@ jQuery(document).ready(function($) {
 		var data = form.data("resume");
 		download(JSON.stringify(data, null, "  "), "resume.json", "text/plain");
 	});
+
 	$("#export").tooltip({
+		container: "body"
+	});
+
+	$("#save").on("click", function() {
+		var data = form.data("resume");
+		saveResume(data);
+	});
+	
+	$("#save").tooltip({
 		container: "body"
 	});
 
