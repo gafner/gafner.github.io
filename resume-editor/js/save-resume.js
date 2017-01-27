@@ -1,4 +1,4 @@
-var SaveResume = function(firebase, builder, reset) {
+var SaveResume = function(editorId, firebase, builder, reset) {
     var database = firebase.database();
 
     function guid() {
@@ -9,7 +9,7 @@ var SaveResume = function(firebase, builder, reset) {
     }
 
     function setGuid() {
-        var user_guid = guid();
+        var user_guid = editorId ? editorId + '_' + guid() : guid();
         localStorage.setItem('user_guid', user_guid);
         return user_guid
     }
