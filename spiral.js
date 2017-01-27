@@ -16,7 +16,7 @@ var theta = increment;
 var counter = 0;
 var radius = theta;
 var d = 1.0021;
-var k = 0.051;
+var k = 0.0051;
 cxt.strokeStyle = 'blue';
 function DrawSpiral(mod) {
 
@@ -55,17 +55,17 @@ setInterval(function() {
         prevY = centerY;
         theta = increment + Math.PI/3;
         radius = increment;
-        var r = Math.floor(Math.random()*70+180);
-        var g = Math.floor(Math.random()*20+20);
-        var b = Math.floor(Math.random()*100+100);
+        var r = Math.floor(Math.random()*200+50);
+        var g = Math.floor(Math.random()*20+10);
+        var b = Math.floor(Math.random()*100+150);
         cxt.strokeStyle="rgb("+r+","+g+","+b+")";
         
     }
-    if (spiralCount == 4) {
+    if (spiralCount == 100) {
         spiralCount = 0;
         cxt.setLineDash([14, 2]);
         cxt.clearRect(0, 0, c.width, c.height);
     }
     DrawSpiral(counter, prevX, prevY);
-    counter += 0.0084;
+    counter += 0.08;
 }, interval);
