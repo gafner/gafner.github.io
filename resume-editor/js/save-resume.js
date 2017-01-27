@@ -32,7 +32,9 @@ var SaveResume = function(firebase, builder) {
     var userResumeJson = database.ref('resume/' + user_guid);
     userResumeJson.on('value', function(snapshot) {
         console.log('snapshot', snapshot.val());
-        builder.setFormValues(snapshot.val());
+		if(snapshot.val() !== null) {
+			builder.setFormValues(snapshot.val());
+		}
     });
 
 	return saveJson
