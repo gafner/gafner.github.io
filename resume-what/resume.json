@@ -6,7 +6,7 @@
         "email": "gafner@gmail.com",
         "phone": "(972) 58 400 33 46",
         "website": "http://gafner.github.io",
-        "summary": "An abstract thinker that can look beyond the syntax and tools, focusing on solution. 8+ years of experience, expert knowledge of JavaScript, coupled with experience in Nodejs, Python.",
+        "summary": "An abstract thinker that can look beyond the syntax and tools, focusing on solution. 6+ years of experience, expert knowledge of JavaScript, coupled with experience in Nodejs, Python.",
         "location": {
             "address": "72 Maze st",
             "postalCode": "65789",
@@ -156,7 +156,7 @@
     "interests": [{
         "name": "",
         "keywords": [
-            "Coding, Music, Art, Philosophy, International Relations, Mars"
+            "Codeing, Music, Art, Philosophy, International Relations, Mars"
         ]
     }],
     "references": []
