@@ -6,7 +6,7 @@
         "email": "gafner@gmail.com",
         "phone": "(972) 58 400 33 46",
         "website": "http://gafner.github.io",
-        "summary": "Abstract thinker and ambitious problem solver with passion for user-facing software products. Creates logical and innovative solutions to complex problems, with a keen interest in technology, mobile development, and user experience. Expert knowledge of JavaScript, coupled with significant experience in Python, Php, and C++. Outstanding communication with the ability to coordinate multiple projects from initiation to completion in a deadline-driven environment.",
+        "summary": "An abstract thinker that can look beyond the syntax and tools, focusing on solution. 6+ years of experience, expert knowledge of JavaScript, coupled with experience in Nodejs, Python.",
         "location": {
             "address": "72 Maze st",
             "postalCode": "65789",
@@ -15,19 +15,14 @@
             "region": ""
         },
         "profiles": [{
-                "network": "Twitter",
-                "username": "roshbakier",
-                "url": "https://twitter.com/roshbakier"
+                "network": "LinkedIn",
+                "username": "Amir Gafner",
+                "url": "https://il.linkedin.com/in/amir-gafner"
             },
             {
                 "network": "SoundCloud",
                 "username": "tipsy-mechanic",
                 "url": "https://soundcloud.com/tipsy-mechanic"
-            },
-            {
-                "network": "LinkedIn",
-                "username": "Amir Gafner",
-                "url": "https://il.linkedin.com/in/amir-gafner"
             }
         ]
     },
@@ -37,8 +32,12 @@
             "website": "http://www.reactful.com",
             "startDate": "2015-07-01",
             "endDate": "2017-05-01",
-            "summary": "Developed and designed Reactful services from the bottom up. Using Webpack, Babel, ES2017, React and Redux. Crafted flawless user experiences, integrated innovative design principles and system architecture patterns. Manage team/company releases and feature roadmaps. Implemented latest technologies and services across the full web stack, including Google Services, Stripe, intercom, and Segment",
-            "highlights": []
+            "summary": " Reactful is a real time conversion platform that helps you convert those visitors on your sites, letting you create powerful Reactions to your visitors. ",
+            "highlights": [
+                "Developed and designed Reactful products from the bottom up. Responsible for team repository, releases and feature roadmaps.",
+                "Using Webpack, Babel, ES2017, React and Redux. ",
+                "Crafted user experiences, integrated design and system architecture. Implemented technologies including GCS, Stripe, Intercom and Segment"
+            ]
         },
         {
             "company": "Cognigo Inc.",
@@ -46,8 +45,12 @@
             "website": "https://itunes.apple.com/us/app/spinbound/id1004295633?mt=8",
             "startDate": "2015-01",
             "endDate": "2015-06",
-            "summary": "Inventing and designing Spinbound a mobile game. Built with cocos2dx C++ Game engine for android and IOS. Designing all aspects of the game from user interface to game design. Integrating Google Analytics, Google play services, Apple Game center and Admob services.",
-            "highlights": []
+            "summary": "Spin particles to their outer magnetic bound and find a clear route through the endlessly expanding vortex cloud.  Master time and space to keep expanding.",
+            "highlights": [
+                "Invented and designed Spinbound - cross platform mobile game.",
+                "Built with cocos2dx C++ Game engine for android and IOS. ",
+                "Integrating Google Analytics, Google play services, Apple Game center and Admob services."
+            ]
         },
         {
             "company": "Guesty Inc.",
@@ -55,17 +58,25 @@
             "website": "https://www.guesty.com",
             "startDate": "2014-07",
             "endDate": "2015-01",
-            "summary": "Full stack Javascript development - MeanJS stack (mongo express angular node). Developing end to end features Building single page application for managing reservations and booking insights history, along with pricing recommendation and listing stats on airbnb. Integrating Stripe and Firebase for real time notification and operation system. ",
-            "highlights": []
+            "summary": "The Tool That Makes Your Airbnb Business a Success.",
+            "highlights": [
+                "Full stack Javascript development - MeanJS stack.",
+                "Developing single page application for managing reservations, booking insights history, along with pricing analytics and listing stats.",
+                "Integrating Stripe and Firebase for real time operation system. "
+            ]
         },
         {
-            "company": "Somoto Inc.",
+            "company": "Somoto Ltd.",
             "position": "Senior Web Developer",
             "website": "http://www.somotoinc.com",
             "startDate": "2013-05",
             "endDate": "2014-08",
-            "summary": "Leading front end development, responsible for a reporting system with data tables, graphs and charts using Backbone and Marionette over NginX and Php Symfony framework. Building cross browser dynamically loaded extensions components and an automated development management tools with Gruntjs",
-            "highlights": []
+            "summary": "Somoto Ltd. offers various solutions to software developers, publishers, advertisers, and Website owners for the distribution of software worldwide.",
+            "highlights": [
+                "Leading front end development, responsible for a reporting system with data tables, graphs and charts",
+                "Using Backbone and Marionette over NginX and Php Symfony framework. ",
+                "Building cross browser dynamically loaded extensions components."
+            ]
         },
         {
             "company": "Simplified Networks Inc.",
@@ -73,8 +84,12 @@
             "website": "https://5-dot-latest-dot-wemoovu.appspot.com/box/party",
             "startDate": "2011-05",
             "endDate": "2013-04",
-            "summary": "Developing Facebook connected Chrome extension for watching and collecting videos. Creating a short youtube video preview using advanced Canvas abilities creating gifs for viral video feed. Working in close collaboration within a cross-functional team to define and develop product roadmaps.",
-            "highlights": []
+            "summary": "Moovu is the best way to discover, collect and share the coolest videos from YouTube, Facebook, Vimeo and much more.",
+            "highlights": [
+                "Developed Facebook connected Chrome extension.",
+                "Build a tool for creating a short meme gif youtube preview using canvas.",
+                "Worked in close collaboration within a cross-functional team."
+            ]
         }
     ],
     "volunteer": [],
@@ -83,8 +98,8 @@
             "area": "Music and Philosophy",
             "studyType": "Bachelor",
             "startDate": "2004-10",
-            "endDate": "2018-08",
-            "gpaś": "",
+            "endDate": "2008-08",
+            "gpa": "",
             "courses": []
         },
         {
@@ -131,11 +146,11 @@
     ],
     "languages": [{
             "language": "English",
-            "fluency": "fluent speaker"
+            "fluency": "fluent"
         },
         {
             "language": "Hebrew",
-            "fluency": "native speaker"
+            "fluency": "native"
         }
     ],
     "interests": [{
@@ -143,5 +158,6 @@
         "keywords": [
             "Codeing, Music, Art, Philosophy, International Relations, Mars"
         ]
-    }]
+    }],
+    "references": []
 }
