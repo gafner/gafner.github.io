@@ -1,170 +1,152 @@
 {
-  "name": "Amir Gafner",
-  "info": {},
-  "meta": {
-    "format": "FRESH@0.6.0",
-    "version": "0.1.0"
-  },
-  "location": {
-    "city": "Tel Aviv",
-    "region": "",
-    "country": "Israel",
-    "code": "65789",
-    "address": "72 Maze st"
-  },
-  "employment": {
-    "history": [
-      {
-        "position": "Full Stack Lead Developer",
-        "employer": "Reactful",
-        "summary": "Reactful helps convert visitors by creating powerful Reactions built on top of React/Redux, Node, Webpack, ES2017 and isomorphic render",
-        "start": "2015-07-01",
-        "end": "2017-05-01",
-        "url": "http://www.reactful.com",
-        "keywords": [],
-        "highlights": [
-          "Developed and designed Reactful web application from the bottom up, designed, implemented, tested, ensured cross-browser and cross platform compatibility leading to major increase in clients, serving 800k unique sessions per day. ",
-          "Crafted user experiences, integrated design and system architecture. Implemented technologies including GCS, Stripe, Intercom and Segment",
-          "Responsible for team repository, releases and feature roadmaps. "
+    "basics": {
+        "name": "Amir Gafner",
+        "label": "Senior Web Developer",
+        "picture": "./image.jpg",
+        "email": "gafner@gmail.com",
+        "phone": "(972) 58 400 33 46",
+        "website": "http://gafner.github.io",
+        "summary": "Cutting edge front-end development experience in web-based systems, Front-end architecture to W3C-established web standards by maintaining cross-browser/cross-platform compatibility through validation, usability, interface design and user experiences. 8+ years of experience - JavaScript expert, advanced Node, Python.",
+        "location": {
+            "address": "72 Maze st",
+            "postalCode": "65789",
+            "city": "Tel Aviv",
+            "countryCode": "Israel",
+            "region": ""
+        },
+        "profiles": [{
+                "network": "LinkedIn",
+                "username": "Amir Gafner",
+                "url": "https://il.linkedin.com/in/amir-gafner"
+            },
+            {
+                "network": "SoundCloud",
+                "username": "tipsy-mechanic",
+                "url": "https://soundcloud.com/tipsy-mechanic"
+            }
         ]
-      },
-      {
-        "position": "Full Stack Developer",
-        "employer": "Guesty Inc.",
-        "summary": "Airbnb management service built with Mean.js stack. Working in small agile team, building a real time dashboard/admin tool and backend",
-        "start": "2014-07",
-        "end": "2015-01",
-        "url": "https://www.guesty.com",
-        "keywords": [],
-        "highlights": [
-          "Developing single page application for managing reservations, booking insights history, along with pricing analytics and listing stats.",
-          "Integrating Stripe and Firebase for real time operation system.",
-          "Managing more than 150k+ listings all over the globe."
-        ]
-      },
-      {
-        "position": "Front End Developer",
-        "employer": "Somoto Ltd.",
-        "summary": "Somoto Ltd. offers various solutions to software developers, publishers, advertisers, and Website owners for the distribution of software worldwide.",
-        "start": "2013-05",
-        "end": "2014-08",
-        "url": "http://www.somotoinc.com",
-        "keywords": [],
-        "highlights": [
-          "Responsible for a reporting platform with data tables, graphs and charts serving 1000K+ users with 8M installs per day.",
-          "Using Backbone and Marionette over NginX and Php Symfony framework. ",
-          "Building cross browser dynamically loaded extensions components used by 50M users bringing major impact on Mobile hands free Installs."
-        ]
-      },
-      {
-        "position": "Front End Developer",
-        "employer": "Simplified Networks Inc.",
-        "summary": "Moovu helps discover, collect and share videos from YouTube, Facebook, Vimeo.",
-        "start": "2011-05",
-        "end": "2013-04",
-        "url": "https://5-dot-latest-dot-wemoovu.appspot.com/box/party",
-        "keywords": [],
-        "highlights": [
-          "Developing Facebook connected Chrome extension for watching and collecting videos downloaded by 5M users.",
-          "Build a tool for creating a short meme gif youtube preview using canvas, creating gifs for viral video feed. ",
-          "Working in close collaboration within a cross-functional team to define and develop product roadmaps."
-        ]
-      }
-    ]
-  },
-  "education": {
-    "level": "",
-    "history": [
-      {
-        "institution": "University of Haifa",
-        "start": "2004-10",
-        "end": "2008-08",
-        "grade": "",
-        "curriculum": [],
-        "summary": "",
-        "area": "Music and Philosophy",
-        "studyType": "Bachelor"
-      },
-      {
-        "institution": "John Bryce School",
-        "start": "1999-02",
-        "end": "1999-06",
-        "grade": "",
-        "curriculum": [],
-        "summary": "",
-        "area": "Web development",
-        "studyType": "Certificate"
-      }
-    ]
-  },
-  "service": {},
-  "skills": {
-    "sets": [
-      {
-        "name": "Javascript",
-        "level": "Expert",
-        "skills": [
-          "Node",
-          "Webpack",
-          "React",
-          "Redux",
-          "Angular",
-          "Backbone",
-          "HTML5",
-          "Canvas",
-          "D3, Google charts",
-          "express",
-          "mongo",
-          "extensions"
-        ]
-      },
-      {
-        "name": "Python, c++, php",
-        "level": "experienced",
-        "skills": [
-          "Google App Engine",
-          "Big query",
-          "Docker",
-          "Cocos2dx",
-          "symfony",
-          "nginx",
-          "mysql"
-        ]
-      }
-    ]
-  },
-  "writing": [],
-  "social": [
-    {
-      "label": "LinkedIn",
-      "network": "LinkedIn",
-      "url": "https://il.linkedin.com/in/amir-gafner",
-      "user": "Amir Gafner"
     },
-    {
-      "label": "SoundCloud",
-      "network": "SoundCloud",
-      "url": "https://soundcloud.com/tipsy-mechanic",
-      "user": "tipsy-mechanic"
-    }
-  ],
-  "interests": [
-    {
-      "name": "",
-      "keywords": [
-        "Music, Art, Philosophy, International Relations, Mars"
-      ]
-    }
-  ],
-  "testimonials": 0,
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "fluent"
-    },
-    {
-      "language": "Hebrew",
-      "fluency": "native"
-    }
-  ]
+    "work": [{
+            "company": "Reactful",
+            "position": "Full Stack Lead Developer",
+            "website": "http://www.reactful.com",
+            "startDate": "2015-07-01",
+            "endDate": "2017-05-01",
+            "summary": "Reactful helps convert visitors by creating powerful Reactions built on top of React/Redux, Node, Webpack, ES2017 and isomorphic render",
+            "highlights": [
+                "Developed and designed Reactful web application from the bottom up, designed, implemented, tested, ensured cross-browser and cross platform compatibility leading to major increase in clients, serving 800k unique sessions per day. ",
+                "Crafted user experiences, integrated design and system architecture. Implemented technologies including GCS, Stripe, Intercom and Segment",
+                "Responsible for team repository, releases and feature roadmaps. "
+            ]
+        },
+        {
+            "company": "Guesty Inc.",
+            "position": "Full Stack Developer",
+            "website": "https://www.guesty.com",
+            "startDate": "2014-07",
+            "endDate": "2015-01",
+            "summary": "Airbnb management service built with Mean.js stack. Working in small agile team, building a real time dashboard/admin tool and backend",
+            "highlights": [
+                "Developing single page application for managing reservations, booking insights history, along with pricing analytics and listing stats.",
+                "Integrating Stripe and Firebase for real time operation system.",
+                "Managing more than 150k+ listings all over the globe."
+            ]
+        },
+        {
+            "company": "Somoto Ltd.",
+            "position": "Front End Developer",
+            "website": "http://www.somotoinc.com",
+            "startDate": "2013-05",
+            "endDate": "2014-08",
+            "summary": "Somoto Ltd. offers various solutions to software developers, publishers, advertisers, and Website owners for the distribution of software worldwide.",
+            "highlights": [
+                "Responsible for a reporting platform with data tables, graphs and charts serving 1000K+ users with 8M installs per day.",
+                "Using Backbone and Marionette over NginX and Php Symfony framework. ",
+                "Building cross browser dynamically loaded extensions components used by 50M users bringing major impact on Mobile hands free Installs."
+            ]
+        },
+        {
+            "company": "Simplified Networks Inc.",
+            "position": "Front End Developer",
+            "website": "https://5-dot-latest-dot-wemoovu.appspot.com/box/party",
+            "startDate": "2011-05",
+            "endDate": "2013-04",
+            "summary": "Moovu helps discover, collect and share videos from YouTube, Facebook, Vimeo.",
+            "highlights": [
+                "Developing Facebook connected Chrome extension for watching and collecting videos downloaded by 5M users.",
+                "Build a tool for creating a short meme gif youtube preview using canvas, creating gifs for viral video feed. ",
+                "Working in close collaboration within a cross-functional team to define and develop product roadmaps."
+            ]
+        }
+    ],
+    "volunteer": [],
+    "education": [{
+            "institution": "University of Haifa",
+            "area": "Music and Philosophy",
+            "studyType": "Bachelor",
+            "startDate": "2004-10",
+            "endDate": "2008-08",
+            "gpa": "",
+            "courses": []
+        },
+        {
+            "institution": "John Bryce School",
+            "area": "Web development",
+            "studyType": "Certificate",
+            "startDate": "1999-02",
+            "endDate": "1999-06",
+            "gpa": "",
+            "courses": []
+        }
+    ],
+    "awards": [],
+    "publications": [],
+    "skills": [{
+            "name": "Javascript",
+            "level": "Expert",
+            "keywords": [
+                "Node",
+                "Webpack",
+                "React",
+                "Redux",
+                "Angular",
+                "Backbone",
+                "HTML5",
+                "Canvas",
+                "D3, Google charts",
+                "express",
+                "mongo",
+                "extensions"
+            ]
+        },
+        {
+            "name": "Python, c++, php",
+            "level": "experienced",
+            "keywords": [
+                "Google App Engine",
+                "Big query",
+                "Docker",
+                "Cocos2dx",
+                "symfony",
+                "nginx",
+                "mysql"
+            ]
+        }
+    ],
+    "languages": [{
+            "language": "English",
+            "fluency": "fluent"
+        },
+        {
+            "language": "Hebrew",
+            "fluency": "native"
+        }
+    ],
+    "interests": [{
+        "name": "",
+        "keywords": [
+            "Music, Art, Philosophy, International Relations, Mars"
+        ]
+    }],
+    "references": []
 }
