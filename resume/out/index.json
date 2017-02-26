@@ -29,6 +29,20 @@
         ]
       },
       {
+        "position": "Mobile Developer",
+        "employer": "Cognigo Inc.",
+        "summary": "Spin particles to their outer magnetic bound and find a clear route through the endlessly expanding vortex cloud.  Master time and space to keep expanding.",
+        "start": "2015-01",
+        "end": "2015-06",
+        "url": "https://itunes.apple.com/us/app/spinbound/id1004295633?mt=8",
+        "keywords": [],
+        "highlights": [
+          "Invented and designed Spinbound - cross platform mobile game.",
+          "Built with cocos2dx C++ Game engine for android and IOS. ",
+          "Integrating Google Analytics, Google play services, Apple Game center and Admob services."
+        ]
+      },
+      {
         "position": "Full Stack Developer",
         "employer": "Guesty Inc.",
         "summary": "Airbnb management service built with Mean.js stack. Working in small agile team, building a real time dashboard/admin tool and backend",
